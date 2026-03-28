@@ -86,7 +86,7 @@ export default function FaceCamera({ onValidated }: FaceCameraProps) {
   }, [captureAndValidate]);
 
   return (
-    <div className="relative aspect-[3/4] bg-slate-900 overflow-hidden">
+    <div className="relative w-full h-full bg-slate-900 overflow-hidden">
       <Webcam
         ref={webcamRef}
         audio={false}
